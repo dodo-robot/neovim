@@ -49,7 +49,7 @@ return require('packer').startup(function(use)
 	use('vim-test/vim-test')
 	use('folke/neodev.nvim')
 	use('mbbill/undotree')
-
+    use("akinsho/toggleterm.nvim")
     -- file explorer
     --use("nvim-tree/nvim-tree.lua")
     -- packer
