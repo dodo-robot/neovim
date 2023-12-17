@@ -12,7 +12,7 @@ end)
 -- (Optional) configure lua language server
 --local lua_opts = lsp_zero.nvim_lua_ls()
 
-lsp_zero.setup_servers({'jdtls', 'pyright', 'tsserver', 'rust_analyzer'})
+lsp_zero.setup_servers({'jdtls', 'pyright', 'tsserver', 'marksman'})
 
 ---
 ---

@@ -34,4 +34,4 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
---require("nvim-tree").setup()
+require("nvim-tree").setup()

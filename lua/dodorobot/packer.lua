@@ -52,7 +52,8 @@ return require('packer').startup(function(use)
 
     -- file explorer
     --use("nvim-tree/nvim-tree.lua")
-
+    -- packer
+    use('plasticboy/vim-markdown')
     -- vs-code like icons
     use("nvim-tree/nvim-web-devicons")
     use("nvim-tree/nvim-tree.lua")
