@@ -109,11 +109,6 @@ _G.packer_plugins = {
     path = "/home/dodo/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
-  ["java-syntax.vim"] = {
-    loaded = true,
-    path = "/home/dodo/.local/share/nvim/site/pack/packer/start/java-syntax.vim",
-    url = "https://github.com/uiiaoo/java-syntax.vim"
-  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/dodo/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -144,10 +139,20 @@ _G.packer_plugins = {
     path = "/home/dodo/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/dodo/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/dodo/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/dodo/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["onedark.nvim"] = {
     config = { "\27LJ\2\n7\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\24colorscheme onedark\bcmd\bvim\0" },
@@ -187,6 +192,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/dodo/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/home/dodo/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
   },
   ["vim-fugitive"] = {
     loaded = true,

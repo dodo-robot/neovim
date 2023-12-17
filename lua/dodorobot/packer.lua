@@ -35,7 +35,16 @@ return require('packer').startup(function(use)
 	use('vim-test/vim-test')
 	use('folke/neodev.nvim')
 	use('mbbill/undotree')
-	use('uiiaoo/java-syntax.vim')
+
+    -- file explorer
+    --use("nvim-tree/nvim-tree.lua")
+
+    -- vs-code like icons
+    use("nvim-tree/nvim-web-devicons")
+    use("nvim-tree/nvim-tree.lua")
+
+    use("ryanoasis/vim-devicons")
+
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',

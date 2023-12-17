@@ -32,3 +32,15 @@ autocmd({"BufWritePre"}, {
 vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
+
+-- Enable the plugin
+require('nvim-web-devicons').setup()
+
+-- Use a patched font for icons (change this to your installed font)
+vim.cmd('set guifont=Hack:h10')
+
+-- Refresh the icons
+require('nvim-web-devicons').get_icons()
+
+
+
