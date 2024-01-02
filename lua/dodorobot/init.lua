@@ -43,4 +43,3 @@ vim.cmd('set guifont=Hack:h10')
 require('nvim-web-devicons').get_icons()
 
 
-

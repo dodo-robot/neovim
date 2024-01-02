@@ -42,8 +42,7 @@ return require('packer').startup(function(use)
 			vim.cmd("colorscheme onedark")
 		end
 	})
-
-
+    use('sheerun/vim-polyglot')
 	use('nvim-treesitter/nvim-treesitter', {requires = {'nvim-treesitter/nvim-treesitter-textobjects',}, run =  ':TSUpdate'})
 	use('nvim-treesitter/playground')
 	use('vim-test/vim-test')
@@ -83,6 +82,8 @@ return require('packer').startup(function(use)
 	}
 	use('tpope/vim-fugitive')
 	use('theprimeagen/harpoon')
+    use('ThePrimeagen/vim-be-good')
+
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
